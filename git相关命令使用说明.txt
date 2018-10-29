@@ -4,11 +4,11 @@ git status 查看当前仓库文件的状态(git会忽略空的目录)
 git add 将文件添加到仓库 git add
 git commit -m '备注说明' 将文件提交到仓库 git commit -m '备注说明'
 git diff 用git diff可以查看修改内容(如果git status告诉你有文件被修改过)
-git log 显示从近到远的提交日志
 git reset 回退到上一版本上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
 git reset --hard HEAD^ 回退到上一版本.
 git reset --hard commitid  回到未来的摸个版本commitid是一堆的那个.
-git reflog 用来记录每一次命令
+git log 显示从近到远的提交日志
+git reflog 显示所有的历史记录log
 分支相关命令
 git branch 分支名  创建分支
 git checkout 分支名	  切换分支
