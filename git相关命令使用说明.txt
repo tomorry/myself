@@ -13,4 +13,4 @@ git reflog 用来记录每一次命令
 git branch 分支名  创建分支
 git checkout 分支名	  切换分支
 git branch -D 分支名    删除分支
-git merge 需要合并的分支     合并分支
+git merge 需要合并的分支     合并分支(好像是后面的直接覆盖前面的文件)
